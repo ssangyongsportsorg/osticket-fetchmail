@@ -1,0 +1,12 @@
+{
+  "name": "osticket-cron-job",
+  "version": "1.0.0",
+  "description": "Cron job for fetching osTicket emails every 10 seconds",
+  "main": "fetch_emails.js",
+  "scripts": {
+    "start": "node fetch_emails.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
